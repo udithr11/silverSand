@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- bootstrap -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>silverSand</title>
+</head>
+<body>
+
+    <!-- <section id="first">
+        <div id="background_image">
+            <img alt="background" src="pictures/IMG_9784 4.png" class="img-fluid back_image" object-fit="fill"/>
+        </div>
+        <style>
+            body{
+                font-family:'Rufina'
+            }
+            
+            #image_container{
+                position:absolute;
+                top:0;
+                left:8%;
+            }
+            #first_image{
+                padding-bottom:10rem;
+                padding-top:2rem;
+                width:70%;
+            }
+            #first_container{
+                position:absolute;
+                top:38%;
+                left:10%;
+                /* padding-left:2rem; */
+                text-align:center;
+                width:80%;
+                /* background-color: red; */
+                margin:auto;
+                border-radius:13px;
+                background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.9), rgba(208, 208, 208, 0.9));
+            }
+            #heading{
+                color:#91278F;
+                font-weight: 600;
+                font-size: calc(1.2rem + 1.2vw);
+                line-height: 1;
+                padding-top:5rem
+            }
+            #paragraph{
+                padding:2rem 5rem 5rem 4rem;
+                font-weight:400;
+                font-size:calc(0.6rem + 0.5vw)
+
+            }
+            .back_image{
+                
+    /* Set height to 100% of the viewport height */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    object-position: center; /* Center the image within the container */
+    transform: scale(1.1);
+
+            }
+            
+
+            @media (max-width: 575px){
+                #image_container{
+                    display:flex;
+                    justify-content:center
+                }
+                #first_image{
+                padding-bottom:3rem;
+                width:75%;
+            }
+            #paragraph{
+                padding:1rem 2rem;
+            }
+            #first_container{
+                /* padding-top:10rem; */
+                padding-left:0;
+            }
+            #desktop_breaker{
+                display:none;
+            }
+  }
+        </style>
+
+        <div id="full_main" class="container">
+
+            
+
+            <div id="image_container">
+                <img  id="first_image" src="pictures/HSS-Logo 1.png" class="img-fluid"/>
+
+            </div>
+            <div id="first_container">
+                <div id="heading">
+                    A Fresh Look For Our Site, Same<br id="desktop_breaker"> Commitment to Responsible Mining:
+                </div>
+                <div id="paragraph">
+                    In our quest for continuous improvement, we are updating our website to better serve our stakeholders. We're excited to introduce changes that reflect our growth and advancements in the mining industry. These updates will provide a clearer, more engaging view of our operations and initiatives. Importantly, the essence of our content will continue to emphasize our unwavering commitment to responsible mining practices and community support. While our appearance may evolve, our core values remain steadfast.
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+    
+
+    <section id="first">
+        <style>
+            body{
+                font-family:'Rufina'
+            }
+            #first{
+                background-image: url("pictures/IMG_9784\ 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 38%;
+    width: 100%;
+    height: 751px;
+    opacity: 1;
+    visibility: inherit;
+            }
+            #full{
+                width:100%;
+                height:100vh;
+                background-colorr: aqua;
+            }
+            .back_img{
+                object-fit: scale-down;
+                height:80%
+            }
+            #logo_container{
+                position:absolute;top:0;left:0;width:100%;padding-top:2rem;
+            }
+            #heading{
+                color:#91278F;
+                font-weight: 600;
+                font-size: calc(1.2rem + 1.2vw);
+                line-height: 1;
+                padding-top:5rem;
+                text-align: center;
+            }
+            #paragraph{
+                padding:2rem 5rem 5rem 5rem;
+                font-weight:400;
+                font-size:calc(0.6rem + 0.5vw)
+
+            }
+            #logo_container_inner{
+                padding-left:8rem;width:18rem;
+            }
+            #mobile_background{
+                display:none;
+            }
+
+            @media (max-width: 1300px){
+                #logo_container{
+                    display:flex;
+                    justify-content: center;
+                }
+                #logo_container_inner{
+                    padding-left:0;
+                    width:12rem;
+                }
+            }
+
+            @media (max-width: 992px){
+                #paragraph{
+                    padding:2rem 1rem 3rem 1rem;
+
+                }
+
+            }
+            @media (max-width: 575px){
+                #logo_container{
+                    display:flex;
+                    justify-content: center;
+                }
+                #logo_container_inner{
+                    padding-left:0;
+                    width:12rem;
+                }
+                #paragraph{
+                    padding:2rem 3rem 3rem 3rem;
+
+                }
+                #desktop_background{
+                    display:none;
+                }
+                #mobile_background{
+                    display:block;
+                }
+                #heading{
+                    padding:0.5rem;
+                    padding-top: 3rem;
+                }
+                #second_main{
+                
+                    top:40% !important;
+                }
+                #first{
+                background-position: 83% 38%;
+    
+            }
+            }
+            @media (max-width: 460px){
+                #second_main{
+                
+                top:30% !important;
+            }
+
+            }
+
+        </style>
+        <div id="full">
+            <!-- <div id="desktop_background">
+                <img src="pictures/IMG_9784 4.png" class="img-fluid back_img" />
+            </div>
+            <div id="mobile_background">
+                <img src="pictures/mobile.png" class="img-fluid back_img" />
+
+            </div> -->
+
+            <div id="logo_container" >
+                <div id="logo_container_inner">
+                    <img src="pictures/HSS-Logo 1.png" class="img-fluid">
+                </div>
+            </div>
+
+            <div id="second_main" style="position:absolute;top:40%;margin:auto;width:100%;background-colorr: blue;">
+                <div style="width:78%;margin:auto;text-align: center;border-radius:15px;background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.9), rgba(208, 208, 208, 0.9));
+                ">
+                    <div id="heading">
+                        A Fresh Look For Our Site, Same<br id="desktop_breaker"> Commitment to Responsible Mining:
+                    </div>
+                    <div id="paragraph">
+                        In our quest for continuous improvement, we are updating our website to better serve our stakeholders. We're excited to introduce changes that reflect our growth and advancements in the mining industry. These updates will provide a clearer, more engaging view of our operations and initiatives. Importantly, the essence of our content will continue to emphasize our unwavering commitment to responsible mining practices and community support. While our appearance may evolve, our core values remain steadfast.
+                    </div>
+
+                </div>
+
+            </div>
+
+            
+        </div>
+
+    </section>
+</body>
+</html>
